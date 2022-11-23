@@ -12,13 +12,13 @@ const Login = () => {
     <div className="flex items-center justify-center h-screen w-full bg-gradient-to-br from-indigo-700 to-purple-500">
       <div className="bg-opacity-60 bg-white max-w-xs rounded-lg sm:max-w-md">
         {/* login input */}
-        <div className="flex flex-col items-center justify-center p-14">
+        <div className="flex flex-col items-center justify-center px-14 py-8 sm:py-14">
           {/* icon */}
-          <MdNoteAlt className=" text-5xl mb-10 sm:mb-14 text-gray-800" />
+          <MdNoteAlt className=" text-5xl mb-6 sm:mb-14 text-gray-800" />
 
           {/* title and subtitle */}
           <h1 className="text-3xl font-bold text-gray-800 mb-3">Login</h1>
-          <p className="text-gray-600 text-center mb-8 sm:mb-14 sm:w-2/3 w-[75%]">
+          <p className="text-gray-600 text-center mb-6 sm:mb-14 sm:w-2/3 w-full">
             Please, login to your account to use our services.
           </p>
 
